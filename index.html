@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Rowe Livestock</title>
+</head>
+<body>
+      <div id="ember-container"></div>
+
+    <nav class="nav nav--stacked">
+        <div class="logo">
+        <img src="./Rowe_Assets/Rowe_logo.png" alt="Rowe Livestock Logo">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61594660016872" target="_blank">Facebook</a></li>
+            <li><a href="javascript:void(0)" onclick="openContactModal()">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero hero__burnt">
+        <h1>Rowe Livestock</h1>
+        <p class="hero__para">My story starts when I was about twelve years old. I became fascinated with the life of a cowboy and a rancher. I grew up around the lifestyle, watching the work and the people who lived it, but I never had the chance to step into it myself — not until I turned sixteen. Once I did, I fell in love with every part of it. Feeding cows, working cattle, fencing, haying — all of it. It is a demanding way of life, but it is  honest, rewarding, and deeply satisfying.
+
+        Unlike many folks around me, I was not handed down a ranch. I am building mine from nothing. My start came four years ago when I bought my first bottle calf. She turned out to be one of the best mama cows I could have asked for, always raising strong, good looking calves. She was the beginning of my dream becoming real.
+
+        The growth has been slow, but steady. Today, I am proud to offer high quality beef and pork in halves or wholes. And with the start of the farmers market in     Alliance, NE, I will be bringing individual cuts of meat so customers can try my product before committing to a larger purchase.
+
+        My operation is stress free, hormone free, and ethical. The animals are raised right, and the meat speaks for itself. It is some of the best you will ever eat..</p>
+        <div class="hero-strip">
+            <img src="./Rowe_Assets/cow_logo.png" alt="Cow Silhouette" class="hero-side-img">
+
+            <img src="./Rowe_Assets/feeding.jpg" alt="Hero Image" class="hero-main-img">
+
+            <img src="./Rowe_Assets/pig_logo.png" alt="Pig Silhouette" class="hero-side-img">
+        </div>
+    </header>
+
+    <div id="pricing" class="cards">
+        <div class="card card__burnt card__torn">
+            <h3 class="card__type">Cattle</h3>
+            <p class="card__para">Healthy, well raised cattle ready for sale or breeding.</p>
+            <p class="price">$8.00/lb hanging weight</p>
+        </div>
+
+        <div class="card card__burnt card__torn">
+            <h3 class="card__type">Pigs</h3>
+            <p class="card__para">Strong, quality hogs raised with care and consistency.</p>
+            <p class="price">$4.00/lb hanging weight</p>
+        </div>
+    </div>
+
+  <section id="gallery" class="section">
+    <h2>Livestock Gallery</h2>
+
+    <h3 class="gallery__title">Cattle</h3>
+    <div class="gallery__row">
+        <div class="gallery__item">
+            <img src="./Rowe_Assets/cow1.jpg" alt="Cattle 1">
+        </div>
+        <div class="gallery__item">
+            <img src="./Rowe_Assets/cow2.jpg" alt="Cattle 2">
+        </div>
+        <div class="gallery__item">
+            <img src="./Rowe_Assets/cow3.jpg" alt="Cattle 3">
+        </div>
+    </div>
+
+    <h3 class="gallery__title">Pigs</h3>
+    <div class="gallery__row">
+        <div class="gallery__item">
+            <img src="./Rowe_Assets/pig1.jpg" alt="Pig 1">
+        </div>
+        <div class="gallery__item">
+            <img src="./Rowe_Assets/pig2.jpg" alt="Pig 2">
+        </div>
+        <div class="gallery__item">
+            <img src="./Rowe_Assets/pig3.jpg" alt="Pig 3">
+        </div>
+    </div>
+  </section>
+
+  <section id="quality" class="quality__section quality__burnt">
+    <h2 class="quality__title">Our Quality Promise</h2>
+    <p class="quality__text">
+        Every animal at Rowe Livestock is raised with care, consistency, and true Western tradition. 
+        We stand behind the quality of our cattle and pigs — and if an issue ever arises, we will 
+        gladly make it right with a refund or replacement. Your trust matters, and we honor it.
+    </p>
+    </section>
+
+    <section id="testimonials" class="testimonials__section">
+        <h1 class="testimonials__title">What Folks Are Saying</h1>
+
+        <div class="testimonials__container">
+
+            <div class="testimonial__item testimonial__burnt testimonial__fadeUp">
+                <img src="./Rowe_Assets/customer1.jpg" alt="Customer 1" class="testimonial__img">
+                <p class="testimonial__text">
+                    “Rowe Livestock provided some of the best tasting steaks we have ever purchased.”
+                </p>
+                <p class="testimonial__name">— Nate L.</p>
+            </div>
+
+            <div class="testimonial__item testimonial__burnt testimonial__fadeUp">
+                <img src="./Rowe_Assets/customer2.jpg" alt="Customer 2" class="testimonial__img">
+                <p class="testimonial__text">
+                    “The pork we received was absolutely top quality. You can tell these animals are raised with real care and tradition.”
+                </p>
+                <p class="testimonial__name">— Josh C.</p>
+            </div>
+
+            <div class="testimonial__item testimonial__burnt testimonial__fadeUp">
+                <img src="./Rowe_Assets/customer3.jpg" alt="Customer 3" class="testimonial__img">
+                <p class="testimonial__text">
+                    “Honest people, excellent livestock, and they stand behind their word. Highly recommend.”
+                </p>
+                <p class="testimonial__name">— Lillian C.</p>
+            </div>
+
+            <div class="testimonial__item testimonial__burnt testimonial__fadeUp">
+                <img src="./Rowe_Assets/customer4.jpg" alt="Customer 4" class="testimonial__img">
+                <p class="testimonial__text">
+                    “Some of the best tasting pork and beef I have ever had!”
+                </p>
+                <p class="testimonial__name">— Terry M.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer footer__burnt">
+
+        <img src="./Rowe_Assets/Rowe_logo.png" alt="Rowe Livestock Logo" class="footer__logo">
+
+        <p class="footer__copy">© 2026 Rowe Livestock</p>
+        <p>Located in
+            <br>
+            1468 1st street
+            <br>
+            Bingham, NE, 69335
+            <br>
+            (308) 629-7934
+        </p>
+
+        <div class="footer__creator-block">
+            <img src="./Rowe_Assets/JB logo 0bkgrnd.png" alt="Created by Jon Baker" class="footer__creator-logo">
+            <p class="footer__creator-text">Site crafted by Jon Baker</p>
+        </div>
+    </footer>
+
+    <div id="contactModal" class="contact__modal">
+        <div class="contact__modal-content">
+            <div class="contact__burnt">
+                <div class="contact__inner">
+                    <span class="contact__close">&times;</span>
+
+                    <h2 class="contact__title">Contact Us</h2>
+                    <p class="contact__subtitle">Send us a message and we’ll get back to you soon.</p>
+
+                    <!-- ⭐ EMAIL-CONNECTED FORM ⭐ -->
+                    <form class="contact__form" action="https://formsubmit.co/rowelivestock@gmail.com" method="POST">
+
+                        <!-- Hidden FormSubmit controls -->
+                        <input type="hidden" name="_subject" value="New Contact Message from Rowe Livestock">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+
+                        <!-- Form fields -->
+                        <input type="text" name="name" placeholder="Your Name" class="contact__input" required>
+                        <input type="email" name="email" placeholder="Your Email" class="contact__input" required>
+                        <textarea name="message" placeholder="Your Message" class="contact__textarea" required></textarea>
+
+                        <button type="submit" class="contact__button">Send Message</button>
+                    </form>
+                </div>    
+            </div>    
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
